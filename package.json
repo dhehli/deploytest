@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/dhehli/deploytest#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "rethinkdb": "^2.3.3"
   }
 }
