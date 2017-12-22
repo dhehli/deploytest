@@ -8,7 +8,7 @@ function getData(cb){
         if (err) throw err;
         connection = conn;
 
-        r.db('test').table('authors').run(connection, function(err, cursor) {
+        r.db('test').tableCreate('authors').run(connection, function(err, cursor) {
           if (err) throw err;
           cursor.toArray(function(err, result) {
               cb(result)
